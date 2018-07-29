@@ -1,0 +1,13 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+
+@include normalize();
+
+@import "vars";
+@import "general";
+@import "btn";
+@import "pagination";
+
+
+
+
+

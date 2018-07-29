@@ -1,0 +1,41 @@
+* {
+  -webkit-tap-highlight-bg-color: rgba(0, 0, 0, 0);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+}
+
+::-webkit-scrollbar-track {
+  background: darken(#0d192c, 15%);
+}
+
+::selection {
+  background: rgba(0, 0, 0, .05);
+  color: $primary-color;
+}
+
+html {
+  font: normal 24px/1.5 Arial, Helvetica, Verdana;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: $bg-color;
+  min-width: 320px;
+  font-size: 24px;
+  color: $white-color;
+}
+
+button,
+a {
+  outline: none !important;
+}
